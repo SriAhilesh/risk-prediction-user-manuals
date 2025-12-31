@@ -4,3 +4,33 @@ instruction_text,risk_type,risk_explanation
 "Insert the cartridge and power on the device.",SEQUENCE_DEPENDENCY,The order of actions is important but not explicitly stated.
 "Press the reset button while holding the power switch and reconnecting the cable.",COGNITIVE_OVERLOAD,Multiple actions in a single step increase cognitive load.
 "Turn off the device using the power button before opening the back panel.",LOW_RISK_CLEAR,The instruction is explicit and clearly ordered.
+
+"Operate the system under normal conditions.",AMBIGUITY,The term 'normal conditions' is not defined.
+"Adjust the settings appropriately before use.",AMBIGUITY,The word 'appropriately' is vague.
+"Ensure proper installation before powering on.",AMBIGUITY,The term 'proper' lacks specification.
+"Use sufficient force to secure the component.",AMBIGUITY,The amount of force required is unclear.
+"Continue operation until the device responds.",AMBIGUITY,The expected response is not specified.
+
+"Reattach the grounding wire after replacement.",IMPLICIT_ASSUMPTION,Assumes the user knows the location of the grounding wire.
+"Calibrate the sensor before measurement.",IMPLICIT_ASSUMPTION,Calibration procedure is not explained.
+"Restore factory settings if issues persist.",IMPLICIT_ASSUMPTION,Assumes knowledge of factory reset process.
+"Secure the panel using the standard screws.",IMPLICIT_ASSUMPTION,Assumes user knows which screws are standard.
+"Align the module correctly before insertion.",IMPLICIT_ASSUMPTION,Correct alignment is not defined.
+
+"Connect the power cable and insert the battery.",SEQUENCE_DEPENDENCY,The correct order of steps is not specified.
+"Open the valve and start the pump.",SEQUENCE_DEPENDENCY,Sequence matters but is not stated.
+"Log into the system and configure the settings.",SEQUENCE_DEPENDENCY,Login must precede configuration.
+"Attach the hose and turn on the water supply.",SEQUENCE_DEPENDENCY,Improper order may cause leakage.
+"Insert the memory card and format it.",SEQUENCE_DEPENDENCY,Formatting requires prior insertion.
+
+"Hold the reset button, turn the dial, and reconnect the cable simultaneously.",COGNITIVE_OVERLOAD,Multiple simultaneous actions increase cognitive load.
+"Press and hold the switch while rotating the knob and powering on the device.",COGNITIVE_OVERLOAD,Too many actions in one instruction.
+"Disconnect the cable, press the reset button, and restart the system.",COGNITIVE_OVERLOAD,Multiple actions without step separation.
+"Lift the cover, align the part, tighten screws, and reconnect the cable.",COGNITIVE_OVERLOAD,Instruction combines many actions.
+"Unlock the panel, hold the lever, rotate the switch, and power on.",COGNITIVE_OVERLOAD,High action density causes confusion.
+
+"Turn off the power supply before opening the casing.",LOW_RISK_CLEAR,Clear instruction with explicit order.
+"Press the start button once to begin operation.",LOW_RISK_CLEAR,Simple and unambiguous instruction.
+"Disconnect the power cable before cleaning the device.",LOW_RISK_CLEAR,Clear safety instruction.
+"Insert the cartridge fully until it clicks into place.",LOW_RISK_CLEAR,Specific and well-defined action.
+"Close the lid securely before starting the machine.",LOW_RISK_CLEAR,Clear and easy to follow.
