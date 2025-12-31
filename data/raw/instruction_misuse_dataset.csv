@@ -1,0 +1,6 @@
+instruction_text,risk_type,risk_explanation
+"Use the device when it is ready.",AMBIGUITY,The term 'ready' is undefined and may be interpreted differently.
+"Reconnect the internal cable after maintenance.",IMPLICIT_ASSUMPTION,The instruction assumes the user knows which cable is referred to.
+"Insert the cartridge and power on the device.",SEQUENCE_DEPENDENCY,The order of actions is important but not explicitly stated.
+"Press the reset button while holding the power switch and reconnecting the cable.",COGNITIVE_OVERLOAD,Multiple actions in a single step increase cognitive load.
+"Turn off the device using the power button before opening the back panel.",LOW_RISK_CLEAR,The instruction is explicit and clearly ordered.
